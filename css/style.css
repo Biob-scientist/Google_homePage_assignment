@@ -1,0 +1,161 @@
+
+body{
+    /* background-color: red; */
+}
+#parent{
+    padding: 0px;
+    margin: 0px;
+    height: 100vh;
+    width: 100%;
+}
+header{
+    
+    padding: 10px 0px;
+}
+.menu_list ul {
+    list-style-type: none;
+       float: right;
+      display: flex;
+      margin-right: 20px;
+      justify-content: center;
+      align-items: center;
+       
+   
+   }
+.menu_list ul li{
+ list-style-type: none;
+ margin-right: 35px;
+ 
+
+}
+
+.menu_list ul li a{
+    
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 400;
+    color: #545f6d;
+    text-transform: capitalize;
+   
+   }
+   .menu_list ul li a#sign_in_button{
+       /* border: solid 1px #1a73e8; */
+       background-color: #1a73e8;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       width: 100px;
+       height: 30px;
+       color:white;
+       border-radius: 3px;
+   }
+   /* section_a styling */
+   section{
+       clear: right;
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+       position: relative;
+       top: 100px;
+   }
+   section .google_lettering h1{
+       font-size: 80px;
+       font-weight: 400;
+       font-family: lato;
+       text-transform: capitalize;
+
+   }
+   section .google_lettering h1 span#blue{
+       color: #1a73e8;
+  
+
+}
+section .google_lettering h1 span#red{
+    color: #ea4335;
+
+
+}
+section .google_lettering h1 span#orange{
+    color: #fbbc05;
+
+
+}
+section .google_lettering h1 span#green{
+    color: #2da54d
+
+
+}
+   /* section.google_lettering{
+       position: relative;
+   } */
+
+   section form input,
+   section form input:active{
+       width: 35rem;
+       height: 2.5rem;
+       position: relative;
+       padding-left: 20px;
+       padding-right: 20px;
+       bottom: 60px;
+       border-radius: 30px;
+       border: 1px solid #dbdcdf;
+
+    
+   }
+
+   section form .icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+    bottom: 92px;
+    padding: 3px 20px;
+   }
+   section form .icons a{
+       color: #545f6d;
+       text-decoration: none;
+       
+   }
+   section .google_sweet_statement{
+       display: flex;
+       flex-direction: row;
+       justify-content: space-between;
+       width: 20%;
+       position: relative;
+       bottom: 70px;
+       
+   }
+   section .google_sweet_statement h3{
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       background-color: #f8f9fa;
+       font-size: 12px;
+       padding: 15px;
+       font-family: lato;
+       text-transform:capitalize ;
+       color: #545f6d;
+       height: 10px;
+       
+   }
+   
+   section .foot_note ul{
+       position: relative;
+       display: flex;
+       bottom: 81px;
+       left: -22px;}
+   section .foot_note ul li{
+       list-style-type: none;
+       font-size: 12px;
+   }
+   section .foot_note ul li a{
+       padding-left: 15px;
+    margin-right: 5px;
+    color: #2023b3;
+    text-decoration: none;
+    font-size: 12px;
+    font-family: mada;
+}
+   
+  
